@@ -1,0 +1,21 @@
+
+.flex-container {
+    display: flex;
+    /* justify-content: space-evenly;    */
+    flex-wrap: wrap;
+    gap: 1.5em;
+    min-height: 100vh;
+}
+.flex-item {
+    /* justify-content:space-evenly; */
+    border: 1px solid black;
+    flex: 1;
+}
+
+.custom {
+    flex-grow: 0;
+}
+.flex-item:last-child {
+    flex: 0 100%;
+
+}
