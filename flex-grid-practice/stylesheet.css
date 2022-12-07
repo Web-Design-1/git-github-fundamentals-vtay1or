@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    min-width: 100%;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 4vh 24vh 24vh 24vh 24vh;
+    grid-template-areas: 
+    "nav nav"
+    "winner winner"
+    "chicken dinner"
+    "chicken stew"
+    "yo yo";
+}
+.box {
+    border: solid black 1px;
+    min-height: 10px;
+}
+.nav {
+    grid-area: nav;
+    margin: 0 1em 0 1em;
+}
+.winner {
+    grid-area: winner;
+    margin: 1em 0 1em 0;
+}
+.chicken {
+    grid-area: chicken;
+    margin: 0 0 0 1em;
+}
+.dinner {
+    grid-area: dinner;
+    margin: 0 1em 1em 1em;
+}
+.stew {
+    grid-area: stew;
+    margin: 0 1em 3em 1em;
+}
+.yo {
+    grid-area: yo;
+    margin: 1em 0 0 0;
+}
