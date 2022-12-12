@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Layout</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+        <navbar>    
+            <ul class="nav-list">
+                <li class="nav-item"><img src="/finals/images/plane.jpg"></a></li>
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="#">About</a></li>
+                <li class="nav-item"><a href="#">Contact</a></li>
+                <li class="nav-item"><a href="#">FAQs</a></li>
+            </ul>
+        </navbar>
+        <div class="hero"></div>
+        <div class="article-container">
+            <div class="article"></div>
+            <div class="article"></div>
+            <div class="article"></div>
+            <div class="article"></div>
+        </div>
+        <hr>
+ </body>
+ </html>
